@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"minimum_chrome_version": "18.0",
+
+	"name": "Twitter",
+	"version": "1.0",
+	"description": "Tweet tweet.",
+
+	"author": "TheQwerty",
+
+	"icons": {
+		"16": "16.png",
+		"48": "48.png",
+		"128": "156+padding.png"
+	},
+
+	"app": {
+		"launch": {
+			"container": "tab",
+			"web_url": "https://twitter.com/"
+		}
+	}
+}
